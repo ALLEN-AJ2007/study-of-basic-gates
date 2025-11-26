@@ -93,22 +93,27 @@ endmodule
 
  
 **Logic symbol & Truthtable**
-```
+
+
 <img width="1203" height="277" alt="Screenshot 2025-11-26 204223" src="https://github.com/user-attachments/assets/3aa726dd-31b9-4e01-8a10-4c9a7a85e18d" />
-```
-```
+
+
 <img width="596" height="148" alt="Screenshot 2025-11-26 204153" src="https://github.com/user-attachments/assets/9c48ed94-6c89-483d-b2b5-4431b1385f1c" />
-```
+
 
 **RTL realization Output:**
-```
+
+
 <img width="511" height="388" alt="Screenshot 2025-11-26 203635" src="https://github.com/user-attachments/assets/d538c9f4-2e15-44f4-a947-bf7257b3251b" />
-```
+
+
 **RTL**
 
 **Result:**
-```
+
+
 <img width="1919" height="1079" alt="Screenshot 2025-11-26 203923" src="https://github.com/user-attachments/assets/0980dbb7-2e6c-4a4b-ad62-9a01e96fec46" />
-```
+
+
 
 
