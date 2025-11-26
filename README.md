@@ -1,4 +1,4 @@
-### study-of-basic-gates
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7d1610b8-36ca-4add-94de-15ef257b9d06" />### study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +66,43 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: 25011975
+ ```
+module logic_gates(
+    input A,
+    input B,
+    output AND_out,
+    output OR_out,
+    output NOT_out,
+    output NAND_out,
+    output NOR_out,
+    output XOR_out,
+    output XNOR_out
+);
+
+assign AND_out = A & B;
+assign OR_out = A | B;
+assign NOT_out = ~A;
+assign NAND_out = ~(A & B);
+assign NOR_out = ~(A | B);
+assign XOR_out = A ^ B;
+assign XNOR_out = ~(A ^ B);
+
+endmodule
+```
+
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+<img width="1203" height="277" alt="Screenshot 2025-11-26 204223" src="https://github.com/user-attachments/assets/3aa726dd-31b9-4e01-8a10-4c9a7a85e18d" />
+<img width="596" height="148" alt="Screenshot 2025-11-26 204153" src="https://github.com/user-attachments/assets/9c48ed94-6c89-483d-b2b5-4431b1385f1c" />
 
+
+**RTL realization Output:** 
+<img width="511" height="388" alt="Screenshot 2025-11-26 203635" src="https://github.com/user-attachments/assets/d538c9f4-2e15-44f4-a947-bf7257b3251b" />
 **RTL**
 
 **Result:**
+<img width="1919" height="1079" alt="Screenshot 2025-11-26 203923" src="https://github.com/user-attachments/assets/0980dbb7-2e6c-4a4b-ad62-9a01e96fec46" />
 
 
